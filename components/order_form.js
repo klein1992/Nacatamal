@@ -34,7 +34,7 @@ const handleFormSubmit = async (event) => {
       email: `${event.target.email.value} `,
       pickUpDate: `${event.target["date-picker-inline"].value} `,
       pickUpTime: `${event.target["time-picker"].value} `
-    }), 
+    }),
     headers: {
       "Content-Type": "application/json",
     },
